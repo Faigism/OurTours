@@ -25,7 +25,6 @@ const App = () => {
   useEffect(() => {
     fetchLoading()
   }, [])
-  return <Loading />
   if (isLoading) {
     return (
       <main>
