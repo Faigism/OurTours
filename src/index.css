@@ -338,6 +338,12 @@ main {
   color: var(--white);
 }
 
+@media screen and (max-width: 768px) {
+  .loading {
+    left: 40%;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .tours {
     grid-template-columns: 1fr 1fr;
